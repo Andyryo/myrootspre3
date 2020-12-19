@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+/* 全体 */
+/* 縦が1568px(暫定) */
+
+html {
+	overflow: auto;
+}
+body {
+	overflow: hidden;
+	min-width: 960px;
+}
+
+/* ヘッダー */
+.wrap{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url(Background_top.jpg) center / cover;
+}
+
+.pc_rogo{
+    position: absolute;
+    width: 66%;
+    left: 17%;
+    top: 25vh;
+}
+
+
+.maintext{
+    color: #fcfcfc;
+    font-size: 200%;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+}
+
+
+
+.nextpic{
+    /* background: url(aikonn-1.png) no-repeat; */
+    /* background-size: 150%; */
+    width: 150%;
+}
+
+.next a:hover img {
+    opacity: 0.5;
+  }
+
+.next1 {
+   position: absolute;
+   top: 91%;
+   left: 10%;
+}
+
+.next2{
+    position: absolute;
+    top: 91%;
+    left: 40%;
+}
+
+.next3{
+    position: absolute;
+    top: 91%;
+    left: 70%;
+}
+
+
+/* メイン */
+/*
+.main-content{
+    width: 960px;
+    background-color: rgb(236, 202, 5);
+    position: relative;
+    bottom: 126px;
+}
+
+.section-header{
+    margin-bottom: 40px;
+}
+
+.section-header img{
+    position: relative;
+    top: 40px;
+    left: 40px;
+    width: 880px;
+    height: 496px;
+}
+
+.photo-work1 img{
+    position: relative;
+    left :40px;
+    top: 40px;
+    width: 280px;
+    height: 280px;
+}
+
+.photo-work__text{
+    position: relative;
+    left: 360px;
+    bottom: 240px;
+    width: 559px;
+    height: 280px;
+}*/
+

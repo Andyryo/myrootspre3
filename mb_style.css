@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* ‘S‘Ì */
+/* c‚ª2411px(b’è) */
+
+html {
+	overflow: auto;
+}
+body {
+	overflow: hidden;
+	min-width: 369px;
+}
+
+/* ƒwƒbƒ_[ */
+.wrap{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url(mb_background.jpg) center / cover;
+}
+
+.mb_rogo{
+    position: absolute;
+    width: 100%;
+    top: 14.51%;
+}
